@@ -1,0 +1,33 @@
+body{
+    background-image: element(imagenes\fon2.jpg);
+    
+}
+
+.table{
+    width: 100%;
+    display: table;
+
+}
+
+.header{
+    display: table-header-group;
+}
+.body{
+    display: table-header-group;
+}
+.table *{
+    border: 5px solid yellow;
+   
+  
+}
+.caption{
+    text-align: center;/* centrar titulo*/
+    display: table-caption;
+ 
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+    }
